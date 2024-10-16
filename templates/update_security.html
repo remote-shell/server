@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Security Level</title>
+</head>
+<body>
+    <h1>Update Security Level</h1>
+    <form action="/update_security" method="POST">
+        <label for="security_level">Security Level:</label>
+        <select id="security_level" name="security_level">
+            <option value="uac-p">uac-p (User account/password)</option>
+            <option value="nujc">nujc (No user account)</option>
+        </select><br>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
